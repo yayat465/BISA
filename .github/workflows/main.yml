@@ -16,7 +16,7 @@ jobs:
     - name: Download Program Ngrok.
 
       run: |
-        Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb...-linux-arm.zip --output ngrok-stable-linux-arm.zip
+        Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb...-linux-arm.zip 
         Invoke-WebRequest https://raw.githubusercontent.com/bvn... -OutFile start.bat
         Invoke-WebRequest https://telegra.ph/file/315ab294f1b5b... -OutFile wallpaper.bmp
         Invoke-WebRequest https://raw.githubusercontent.com/bvn... -OutFile wallpaper.bat
